@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+vendor/
+
+# System & OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build / Distribution
+*.zip
+*.tar.gz
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# WordPress specific (if this was a full WP repo, but useful to have)
+wp-config.php
+wp-content/uploads/
+
+# Note: We keep 'assets/' tracked if you want the theme to work immediately after cloning.
+# If you prefer to force a build, uncomment the next line:
+# assets/
